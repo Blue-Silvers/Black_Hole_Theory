@@ -1,19 +1,24 @@
 # Black hole theory (Research Project)
 
 ## Introduction
-Les trous noirs fond l'objet de facinassion depuis dans centaine d'année maintenant, que ce soit dans la comunauté scientifique ou bien même auprès du grand publique.
+Black holes have fascinated people for hundreds of years now, both within the scientific community and among the general public.
 
-Mais qu'est ce qu'un trou noir ?
-- Un trou noir ...
+But what exactly is a black hole?
 
-Ici ne bute n'est pas de se prétendre astolgue mais simplement de rendre plus accessible la manière dont un trou noir affecte son environnement avec sa masse ultra danse.
+It is an object in space with such an enormous mass compressed into a microscopic core that its gravitational force becomes stronger than the speed of light itself. What we usually perceive as its size is actually the surface beyond which light can no longer travel fast enough to escape the black hole’s gravity. This boundary is called the **Event Horizon**.
+
+The goal here is not to pretend to be an astrophysicist, but simply to make it easier to understand how a black hole affects its surroundings through its ultra-dense mass.
 
 ## State of the Art
-### Little point of histoire :
+### Little point of history :
+
+<img width="800" height="2000" alt="Black hole" src="https://github.com/user-attachments/assets/33136f12-1985-4d85-a478-83adfe58db17" />
 
 ### Different type of black hole :
 Comment fonctione les trou noir ?
+Le noyaux d'un trou noir est appeler **Singularité**, la distance où la matière se déforme se nomme le **rayon de Swartchild**, ensuite vien **l'horizon des evenements** qui est la frontièrede la zone où la lumière est totalement absobé par le trou noir, autour de ça se trouve le **disque d'acrétion**, soit l'amat de particuls et de gaz gravitant autoujour du trou noir et pour finir les **Quasars** qui est l'ejection du gaz accumulé.
 
+<img width="736" height="408" alt="image" src="https://github.com/user-attachments/assets/e151442b-7d38-4036-9a9f-74933660f5a7" />
 
 | Black hole type| Characteristic                          | Creation |
 |----------------|---------------------------------|---------------------------------|
