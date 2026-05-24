@@ -86,11 +86,12 @@ In order to achieve a convincing gravitational lens effect I went through two di
 
 **`M_Lenssing :`**
 
-<img width="1147" height="569" alt="image" src="https://github.com/user-attachments/assets/7a7e8ad7-dee3-4b42-bfb3-d02672e461a9" />
+<img width="1199" height="551" alt="image" src="https://github.com/user-attachments/assets/3b4e9fc6-2b62-46d1-af05-b98ac5bfa465" />
 
 **`MI_Lenssing :`**
 
-<img width="1329" height="670" alt="image" src="https://github.com/user-attachments/assets/81962d3b-c7f8-48cd-b4c1-9b2827698475" />
+<img width="1509" height="700" alt="image" src="https://github.com/user-attachments/assets/5c47b844-b40f-45ce-87f4-4a6e4b98a179" />
+
 
 **`M_Distortion :`**
 
