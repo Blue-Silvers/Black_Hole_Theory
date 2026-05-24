@@ -70,8 +70,6 @@ The first step was obviously to create the visual of the black hole around which
 
 <img width="600" height="398" alt="image" src="https://github.com/user-attachments/assets/f909c730-b6a6-4a5c-9749-7c9223f1deee" />
 
-
-
 **Result :**
 
 <img width="1152" height="648" alt="download (3)" src="https://github.com/user-attachments/assets/bdd514a6-32cf-444f-81d6-d3285b459ab7" />
@@ -79,7 +77,9 @@ The first step was obviously to create the visual of the black hole around which
 ### 2. Doppler effect
 At the beginning I was really afraid of this part, it seemed complex to me to modify in order to localize the transmission of light in a convincing way on Unreal engine, but for that I have to explain to you how the Doppler effect works or rather the gravitational lens :
 
-[Vulgarisation de la déformation de la lumière (lentille gravitationel)]
+To put it more simply, since light is attracted by the black hole at forces that can exceed its speed, the more the passage of the latter is aborted by the black hole, the more the trajectory will be impacted, this can cause the image to be distorted, distorted or even duplicated. Particularly thanks to this, and this is what makes them difficult to spot in space, we can see what is happening behind the black hole. We call it the gravitational lens but it works like the Doppler effect, you know this distortion of the sound depending on whether it is more or less close to you.
+
+<img width="1152" height="648" alt="download (4)" src="https://github.com/user-attachments/assets/4c8c8998-bdf7-41cb-ae57-684e2ebba0e4" />
 
 In reality, I'm just taking the problem the other way around, given that in Unreal Engine materials we can influence refraction and thus recreate a similar effect of distortion of the image that the light sends back to us.
 In order to achieve a convincing gravitational lens effect I went through two different materials using refraction.
@@ -107,8 +107,33 @@ https://github.com/user-attachments/assets/ee4c4032-3e4c-40ad-bf8b-8001e6f2ec7e
 
 
 ### 3. Lunch in black hole
+
+Okay, but so what happens if someone is sent into the black hole? What do we see? Well, as said previously, the light is absorbed by the black hole which will have two major effects:
+- The person will appear to be slowing down as they accelerate in their fall, this is because the light takes longer to reach our eyes.
+- The light it emits will shift more and more towards the red before completely disappearing.
+
+For the sake of our experience we will greatly speed up the process and use a tameline to reproduce the desired effect.
 [Impression que la personne ralentie alors quel accelaire + disparition des couleurs au profit du rouge à cause du temps que la lumière mets à nous atteindre]
+
 ### 4. Enter in black hole
+
+So for this part we will have to start from several principles if we want to see something: firstly our character must have eyes capable of seeing beyond the speed of light, otherwise he will not even see himself once in the black hole, we will call them Quantum eyes;
+then it is important that our character is invincible to resist the force that he will experience once the event horizon passes but especially the heat emitted at the level of the acretion disk.
+
+After which I must tell you about another of my discoveries: the Schwarzschild radius.
+
+The Schwarzschild radius is more precisely the distance where the world light ray can no longer escape and can be written mathematically :
+
+Such as :
+- `R` = The Schwarzschild radius
+- `G` = Gravitational constant (which for simplification of calculation will in our case be = 1)
+- `M` = Mass of balck hole
+- `c²` = The light speed
+<img width="1024" height="720" alt="image" src="https://github.com/user-attachments/assets/64c8763d-9e17-4e52-9c6a-5e8a82679758" />
+
+The problem then arises that the force applied to our feet will be extremely different from that applied to our head. This is what we call the Tidal forces, and when we are subjected to them our body would find itself stretching into a sort of gigantic spaghetti which gave it its name spaghettification.
+However, these Tidal forces correspond to 1/M² (the mass of the black hole) which means that the more massive the black hole, the more spaghetification will occur later in the fall.
+
 [Admition de l'utilisation de Quantique eyes + explication du rayon de Schwarzschild et Spaguetification]
 
 ### 5. Create small galaxy
@@ -122,16 +147,15 @@ For the sake of simplify mathematical and optimization limitations, I limited my
 Here we calculate the acceleration that the star obtains by subjecting the gravitational forces of the stars around it as well as that of the black hole.
 
 Such as :
-- `F` = acceleration
-- `G` = the gravitational force (which for simplification of calculation will in our case be = 1)
+- `F` = Acceleration
+- `G` = Gravitational constant (which for simplification of calculation will in our case be = 1)
 - `M1` and `M2` = Mass of the landing and attracted object
-- `d²` = the distance between the two objects squared
+- `d²` = The distance between the two objects squared
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/3b272fc0-d179-4766-bf15-7805dac7b4e4" />
 
 If we whill use general relativity by Einstein we need to use this calculation :
 
 <img width="450" height="112" alt="image" src="https://github.com/user-attachments/assets/9d666a76-d893-4674-bf41-7374db8d8ba9" />
-
 
 And I optain this result...
 
@@ -144,8 +168,8 @@ https://github.com/user-attachments/assets/a17ce4c5-580d-4bb9-9103-f4461e1622dd
 By trying to simulate a galaxy on a small scale and failing, I simply came across something equally persistent in its behavior in a simulation: what happens to stars that survive the absorption of black holes despite being in the close presence of the latter.
 
 Still, my project to simulate a mini galaxy is a failure and here is what could help me in the future to go further:
-- Simuler la galaxy dans des proportion plus grande pour laisse plus d'espace avec le trou noir
-- Passer par le Niagara system pour que les étoiles et leur movment soit gérer par le CPU et ainsi pouvoir en faire apprètre plus : https://youtu.be/O674AZ_UKZk?si=aY4cuxLn5en6E1_g
+- Simulate the galaxy in larger proportions to leave more space with the black hole
+- Go through the Niagara system so that the stars and their movement are managed by the CPU and thus be able to learn more : https://youtu.be/O674AZ_UKZk?si=aY4cuxLn5en6E1_g
 - Use general relativity by Einstein
 
 ## Mediagraphy :
