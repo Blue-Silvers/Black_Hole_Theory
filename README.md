@@ -85,7 +85,7 @@ En essayant de simuler une galaxy à petite echèle et en échouant j'étais tou
 Toujours étant mon projet de simuler un mini galaxie est un échèc et en voici ce qui pourais m'aider à l'avenir à aller plus loin :
 [Piste de résolution : dimmension de la simulation, nombre de d'astre (limite d'optimisation, piste : niagara system)]
 
-## Médiagraphie :
+## Mediagraphy :
 ### Fun video :
 https://www.youtube.com/watch?v=G9KqYVS3OBk _(What happens if you fall into a black hole)_
 
@@ -128,7 +128,7 @@ https://fr.martincid.com/science-2/des-horizons-de-levenement-au-rayonnement-de-
 
 https://www.nasa.gov/universe/what-are-black-holes/
 
-### Publications scientifiques :
+### Scientific publications :
 https://blogs.futura-sciences.com/luminet/2026/05/08/la-pertinence-physique-et-mathematique-des-trous-noirs-est-elle-en-question/
 
 https://zelmanov.progress-in-physics.com/papers/zj-2008-03.pdf
