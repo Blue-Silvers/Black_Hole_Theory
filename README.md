@@ -1,7 +1,7 @@
 # Black hole theory (Research Project)
 
 ## Introduction
-Black holes have fascinated people for hundreds of years now, both within the scientific community and among the general public.
+Black holes have fascinated people along of years now, both within the scientific community and among the general public.
 
 But what exactly is a black hole?
 
@@ -15,36 +15,47 @@ The goal here is not to pretend to be an astrophysicist, but simply to make it e
 <img width="800" height="2000" alt="Black hole" src="https://github.com/user-attachments/assets/33136f12-1985-4d85-a478-83adfe58db17" />
 
 ### Different type of black hole :
-Comment fonctione les trou noir ?
-Le noyaux d'un trou noir est appeler **Singularité**, la distance où la matière se déforme se nomme le **rayon de Swartchild**, ensuite vien **l'horizon des evenements** qui est la frontièrede la zone où la lumière est totalement absobé par le trou noir, autour de ça se trouve le **disque d'acrétion**, soit l'amat de particuls et de gaz gravitant autoujour du trou noir et pour finir les **Quasars** qui est l'ejection du gaz accumulé.
+How do black holes work?
+
+The core of a black hole is called the **Singularity**. The distance at which matter becomes distorted is known as the **Schwarzschild radius**. Then comes the **Event Horizon**, which is the boundary beyond which light is completely absorbed by the black hole. Around it lies the **Accretion disk**, a mass of particles and gas orbiting around the black hole. Finally, there are the **Quasars**, which are the ejection of the accumulated gas.
 
 <img width="736" height="408" alt="image" src="https://github.com/user-attachments/assets/e151442b-7d38-4036-9a9f-74933660f5a7" />
 
-| Black hole type| Characteristic                          | Creation |
-|----------------|---------------------------------|---------------------------------|
-| Primordial     | ...                    |...                    |
-| Supermassive   | ...                   |...                    |
-| Intermediate   | ...            |...                    |
-| Stellar        | ...              |...                    |
+| Black hole type| Characteristic                                                                                                 | Creation |
+|----------------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+| Primordial     | Black hole, formed at the big bang, which evaporates step by step. It is often associated with the dark matter.|Intense pressure and temperature caused by the big bang.                |
+| Supermassive   | Found at the center of galaxies which gives them this spiral shape. They have a mass between 1 million and 40 billion solar masses.|Appear after the explosion of a supernova produced by a massive star.|
+| Intermediate   | Refers to a black hole of a few thousand solar masses. Causes the creation of stars clusters.                  |Formed by accretion of stellar objects at the center of stars clusters. |
+| Stellar        | With a solar mass between 3M and 14M, they would be the most common in the different galaxies.                 |Collapse of a star on itself upon its death.                            |
 
 
 ### Focus on Sagittarius A* :
-<img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/13ac6b1d-eaf2-4c94-a10d-96c2d7f453be" />
+Sagittarius A* is the supermassive black hole located at the center of our galaxy. However, observing it directly would normally require a telescope the size of the Earth. That is why, in 2017, a Swedish researcher came up with a revolutionary idea: linking together all the radio telescopes on Earth in order to greatly increase their observational power.
+
+This network became the Event Horizon Telescope, whose objective is to produce a high-resolution image of the accretion disk surrounding a black hole.
+
+<img width="1280" height="956" alt="image" src="https://github.com/user-attachments/assets/e7f431b8-fabd-4525-bb49-37699768a5eb" />
+
+It took almost perfect weather conditions for nearly four days in order to capture the image. The data was then analyzed by three different laboratories, all of which reached the same result, revealing in 2019 the first-ever photograph of a black hole, followed by a clearer version in 2022.
+
+<img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/13ac6b1d-eaf2-4c94-a10d-96c2d7f453be" /> <img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/dde538c9-14f8-4358-a6a3-f9a4f97eff14" />
+
 
 ### Midpoint :
-Il est important de noté que encore aujourd'hui de nombreux mystère encore les trous noirs, étant donner qu'il se trouve à des distance pour le moment inategnable et qu'un materiaux ne pourrai resité suffisament pour créé un  machine cable de d'être envoyer dedans pour l'analyser plus en profondeur et c'est sans compter la puissant qui se necessaire pour emetre le signal. Cependant il reste possible de l'étudier à l'aide des différent corp celeste qui l'entour.
+It is important to note, even today, many mysteries still around black holes, since they are located at distances that are currently unreachable. In addition, no material could withstand the extreme conditions required to build a machine capable of being sent inside a black hole to study it more deeply, not to mention the enormous amount of power that would be needed to transmit a signal back. However, it is still possible to study black holes by observing the different celestial core and phenomena that around them.
 
 ## Approach
-A l'origine je devais avoir l'aide de mon père (qui a un doctora en mechanique quantique) pour la comprehention des différents calcul avancé, malheuresement ça n'a pas ce faire suite à la divers complication de santé.
-J'ai donc dû me rabatre sur des versions plus accessible des calculs tel que la mécanique newtonienne (de Isaac Newton) plutôt que la relativité général (de Albert Einstein).
+Originally, I was supposed to have help from my father, who has a doctora in quantum mechanics, to better understand the different advanced mathematic. Unfortunately, that was not possible due to various health complications.
 
-Nombre de personne avant moi ont trété ce sujet, que ce soit à travers des simulations en C++ ou bien même de manière encore plus avancer dans des études scientifuqe. Mais je voulais avant tout quelque chose d'accessible et visuel, je me suis donc orienté vers une simulation sur Unreal Engine.
+I therefore had to rely on more accessible versions of these calculations, such as Newtonian mechanics (developed by Isaac Newton) rather than general relativity (developed by Albert Einstein).
 
-C'est après la lecture de plusieur article scientifique et le visionage de quelque vidéo que j'ai décidé de m'orienté autour de 4 approches distinct dans la simulation de mon trou noir :
-- L'effet Doppler sur la distortion de la lumière.
-- Qu'est ce qu'on verrait si on  envoyé quelqu'un dasn un trou noir ?
-- Qu'est ce qui nous arriverais si on entrait dedant  ?
-- Récréé un mini galacy autour du troir noir.
+Many people before me have explored this subject, whether through simulations written in C++ or through even more advanced scientific studies. However, I primarily wanted something accessible and visual, this is why I chose to create a simulation using Unreal Engine.
+
+After reading several scientific articles and watching a few videos, I decided to focus on four distinct approaches for the simulation of my black hole:
+- The Doppler effect on light distortion.
+- What would we see if we sent someone into a black hole?
+- What would happen to us if we went in there?
+- Created a mini galaxy around the black hole.
 
 
 ## Analysis:
