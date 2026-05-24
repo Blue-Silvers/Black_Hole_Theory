@@ -60,30 +60,92 @@ After reading several scientific articles and watching a few videos, I decided t
 
 ## Analysis:
 ### 1. Black hole material
-[insérer présentation du material]
+The first step was obviously to create the visual of the black hole around which I would be able to carry out all my experiments. Here is the configuration :
+
+**`MI_Blackhole_Demo :`**
+
+<img width="508" height="624" alt="image" src="https://github.com/user-attachments/assets/931929dc-fc90-425e-8fe6-c8018e7bce31" />
+
+**`BP_BaseBlackhole :`**
+
+<img width="600" height="398" alt="image" src="https://github.com/user-attachments/assets/f909c730-b6a6-4a5c-9749-7c9223f1deee" />
+
+
+
+**Result :**
+
+<img width="1152" height="648" alt="download (3)" src="https://github.com/user-attachments/assets/bdd514a6-32cf-444f-81d6-d3285b459ab7" />
 
 ### 2. Doppler effect
+At the beginning I was really afraid of this part, it seemed complex to me to modify in order to localize the transmission of light in a convincing way on Unreal engine, but for that I have to explain to you how the Doppler effect works or rather the gravitational lens :
+
 [Vulgarisation de la déformation de la lumière (lentille gravitationel)]
 
-[Présentation des deux material secondaire]
+In reality, I'm just taking the problem the other way around, given that in Unreal Engine materials we can influence refraction and thus recreate a similar effect of distortion of the image that the light sends back to us.
+In order to achieve a convincing gravitational lens effect I went through two different materials using refraction.
+
+**`M_Lenssing :`**
+
+<img width="1147" height="569" alt="image" src="https://github.com/user-attachments/assets/7a7e8ad7-dee3-4b42-bfb3-d02672e461a9" />
+
+**`MI_Lenssing :`**
+
+<img width="1329" height="670" alt="image" src="https://github.com/user-attachments/assets/81962d3b-c7f8-48cd-b4c1-9b2827698475" />
+
+**`M_Distortion :`**
+
+<img width="1709" height="662" alt="image" src="https://github.com/user-attachments/assets/1a2a7fd3-10e1-4271-b0ee-5096d35e1644" />
+
+**Result :**
+
+https://github.com/user-attachments/assets/8df14cc3-23eb-43e2-990c-b6183e90357e
+
+And in particular the light bends so much that it would be possible to see you even if you got close enough to a black hole.
+
+https://github.com/user-attachments/assets/ee4c4032-3e4c-40ad-bf8b-8001e6f2ec7e
+
 
 ### 3. Lunch in black hole
 [Impression que la personne ralentie alors quel accelaire + disparition des couleurs au profit du rouge à cause du temps que la lumière mets à nous atteindre]
 ### 4. Enter in black hole
-[Addimition de l'utilisation de Quantique eyes + explication du rayon de Schwarzschild et Spaguetification]
-### 5. Create galaxie
-[Utilisiation de la mécanique newtonienne sur different corps autour d'un trou noir]
+[Admition de l'utilisation de Quantique eyes + explication du rayon de Schwarzschild et Spaguetification]
 
-[Non creation d'une galaxie]
+### 5. Create small galaxy
 
-J'avais beau me retrourner la question en boucle dans ma tête et je ne comprenais pourquoi ça ejecter mes étoiles de la sorte. Je me suis donc replonger dans mes recherches et puis j'ai trouvais. J'étais passé à côté d'un principe de base : la manière d'on on est aujourd'hui capable de detecter la présence de trou noir :
+For the sake of simplify mathematical and optimization limitations, I limited myself to spawning 2000 stars around the black hole using the Newtonian mechanics (developed by Isaac Newton) rather than general relativity (developed by Albert Einstein).
 
-[Insérer gif]
+<img width="1592" height="393" alt="image" src="https://github.com/user-attachments/assets/9f8fac69-c84f-43c7-ae69-5be8ddee9ead" />
 
-En essayant de simuler une galaxy à petite echèle et en échouant j'étais tous simplement retombé sur quelque chois de tout aussi perstinant dans son comportement dans une simulation : que devienne des étoile qui survive à l'absortion des trous noir malgret dans présence proche de ces derniers.
+<img width="1411" height="513" alt="image" src="https://github.com/user-attachments/assets/5e9a722c-2a69-4c68-ab90-86b03024e775" />
 
-Toujours étant mon projet de simuler un mini galaxie est un échèc et en voici ce qui pourais m'aider à l'avenir à aller plus loin :
-[Piste de résolution : dimmension de la simulation, nombre de d'astre (limite d'optimisation, piste : niagara system)]
+Here we calculate the acceleration that the star obtains by subjecting the gravitational forces of the stars around it as well as that of the black hole.
+
+Such as :
+- `F` = acceleration
+- `G` = the gravitational force (which for simplification of calculation will in our case be = 1)
+- `M1` and `M2` = Mass of the landing and attracted object
+- `d²` = the distance between the two objects squared
+<img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/3b272fc0-d179-4766-bf15-7805dac7b4e4" />
+
+If we whill use general relativity by Einstein we need to use this calculation :
+
+<img width="450" height="112" alt="image" src="https://github.com/user-attachments/assets/9d666a76-d893-4674-bf41-7374db8d8ba9" />
+
+
+And I optain this result...
+
+https://github.com/user-attachments/assets/337ba106-1e19-4522-9b2d-4fe95399a4c3
+
+I kept turning the question over and over in my head and I didn't understand why it would eject my stars like that. So I dove back into my research and then I found it. I had missed a basic principle: the way in which we are today able to detect the presence of black holes.
+
+https://github.com/user-attachments/assets/a17ce4c5-580d-4bb9-9103-f4461e1622dd
+
+By trying to simulate a galaxy on a small scale and failing, I simply came across something equally persistent in its behavior in a simulation: what happens to stars that survive the absorption of black holes despite being in the close presence of the latter.
+
+Still, my project to simulate a mini galaxy is a failure and here is what could help me in the future to go further:
+- Simuler la galaxy dans des proportion plus grande pour laisse plus d'espace avec le trou noir
+- Passer par le Niagara system pour que les étoiles et leur movment soit gérer par le CPU et ainsi pouvoir en faire apprètre plus : https://youtu.be/O674AZ_UKZk?si=aY4cuxLn5en6E1_g
+- Use general relativity by Einstein
 
 ## Mediagraphy :
 ### Fun video :
