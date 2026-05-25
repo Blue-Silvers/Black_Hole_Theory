@@ -55,7 +55,7 @@ After reading several scientific articles and watching a few videos, I decided t
 - The Doppler effect on light distortion.
 - What would we see if we sent someone into a black hole?
 - What would happen to us if we went in there?
-- Created a mini galaxy around the black hole.
+- Create a mini galaxy around the black hole.
 
 
 ## Analysis:
@@ -224,7 +224,7 @@ https://fr.wikipedia.org/wiki/Trou_noir
 
 https://arxiv.org/search/?query=Black+hole&searchtype=all&source=header
 
-https://link.springer.com/article/10.1007/s00159-024-00154-z?utm_source=chatgpt.com
+https://link.springer.com/article/10.1007/s00159-024-00154-z
 
 https://fr.martincid.com/science-2/des-horizons-de-levenement-au-rayonnement-de-hawking-une-exploration-des-trous-noirs
 
