@@ -1,4 +1,4 @@
-# Black hole theory (Research Project)
+# Black hole theory - Research Project
 
 ## Introduction
 Black holes have fascinated people along of years now, both within the scientific community and among the general public.
@@ -99,7 +99,7 @@ In order to achieve a convincing gravitational lens effect I went through two di
 
 **Result :**
 
-https://github.com/user-attachments/assets/8df14cc3-23eb-43e2-990c-b6183e90357e
+https://github.com/user-attachments/assets/42e06168-a4c3-4f06-9c99-833c520f9b13
 
 And in particular the light bends so much that it would be possible to see you even if you got close enough to a black hole.
 
@@ -112,8 +112,17 @@ Okay, but so what happens if someone is sent into the black hole? What do we see
 - The person will appear to be slowing down as they accelerate in their fall, this is because the light takes longer to reach our eyes.
 - The light it emits will shift more and more towards the red before completely disappearing.
 
-For the sake of our experience we will greatly speed up the process and use a tameline to reproduce the desired effect.
-[Impression que la personne ralentie alors quel accelaire + disparition des couleurs au profit du rouge à cause du temps que la lumière mets à nous atteindre]
+To apply this affezct I nee to modifie a little bit th master material of character :
+
+<img width="1071" height="761" alt="image" src="https://github.com/user-attachments/assets/1524b9b0-8f12-4300-a7df-5a1b94d5b2bf" />
+
+And for the sake of our experience we will greatly speed up the process and use a timeline to reproduce the desired effect.
+
+<img width="1481" height="700" alt="image" src="https://github.com/user-attachments/assets/007e950c-b8da-4ed7-8500-1d7c48b3dcd3" />
+
+**Result :**
+
+https://github.com/user-attachments/assets/a07a15b6-7990-4106-9aef-21336b12b25e
 
 ### 4. Enter in black hole
 
