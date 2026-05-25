@@ -10,11 +10,11 @@ It is an object in space with such an enormous mass compressed into a microscopi
 The goal here is not to pretend to be an astrophysicist, but simply to make it easier to understand how a black hole affects its surroundings through its ultra-dense mass.
 
 ## State of the Art
-### Little point of history :
+### <ins>Little point of history :</ins>
 
 <img width="800" height="2000" alt="Black hole" src="https://github.com/user-attachments/assets/33136f12-1985-4d85-a478-83adfe58db17" />
 
-### Different type of black hole :
+### <ins>Different type of black hole :</ins>
 How do black holes work?
 
 The core of a black hole is called the **Singularity**. The distance at which matter becomes distorted is known as the **Schwarzschild radius**. Then comes the **Event Horizon**, which is the boundary beyond which light is completely absorbed by the black hole. Around it lies the **Accretion disk**, a mass of particles and gas orbiting around the black hole. Finally, there are the **Quasars**, which are the ejection of the accumulated gas.
@@ -29,7 +29,7 @@ The core of a black hole is called the **Singularity**. The distance at which ma
 | Stellar        | With a solar mass between 3M and 14M, they would be the most common in the different galaxies.                 |Collapse of a star on itself upon its death.                            |
 
 
-### Focus on Sagittarius A* :
+### <ins>Focus on Sagittarius A* :</ins>
 Sagittarius A* is the supermassive black hole located at the center of our galaxy. However, observing it directly would normally require a telescope the size of the Earth. That is why, in 2017, a Swedish researcher came up with a revolutionary idea: linking together all the radio telescopes on Earth in order to greatly increase their observational power.
 
 This network became the Event Horizon Telescope, whose objective is to produce a high-resolution image of the accretion disk surrounding a black hole.
@@ -41,8 +41,8 @@ It took almost perfect weather conditions for nearly four days in order to captu
 <img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/13ac6b1d-eaf2-4c94-a10d-96c2d7f453be" /> <img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/dde538c9-14f8-4358-a6a3-f9a4f97eff14" />
 
 
-### Midpoint :
-It is important to note, even today, many mysteries still around black holes, since they are located at distances that are currently unreachable. In addition, no material could withstand the extreme conditions required to build a machine capable of being sent inside a black hole to study it more deeply, not to mention the enormous amount of power that would be needed to transmit a signal back. However, it is still possible to study black holes by observing the different celestial core and phenomena that around them.
+### <ins>Midpoint :</ins>
+It is important to note, even today, many mysteries still around black holes, since they are located at distances that are currently unreachable. In addition, no material could withstand the extreme conditions required to build a machine can being sent inside a black hole to study it more deeply, not to mention the enormous amount of power that would be needed to transmit a signal back. However, it is still possible to study black holes by observing the different celestial core and phenomena that around them.
 
 ## Approach
 Originally, I was supposed to have help from my father, who has a doctora in quantum mechanics, to better understand the different advanced mathematic. Unfortunately, that was not possible due to various health complications.
@@ -59,7 +59,7 @@ After reading several scientific articles and watching a few videos, I decided t
 
 
 ## Analysis:
-### 1. Black hole material
+### <ins>1. Black hole material</ins>
 The first step was obviously to create the visual of the black hole around which I would be able to carry out all my experiments. Here is the configuration :
 
 **`MI_Blackhole_Demo :`**
@@ -74,7 +74,7 @@ The first step was obviously to create the visual of the black hole around which
 
 <img width="1152" height="648" alt="download (3)" src="https://github.com/user-attachments/assets/bdd514a6-32cf-444f-81d6-d3285b459ab7" />
 
-### 2. Doppler effect
+### <ins>2. Doppler effect</ins>
 At the beginning I was really afraid of this part, it seemed complex to me to modify in order to localize the transmission of light in a convincing way on Unreal engine, but for that I have to explain to you how the Doppler effect works or rather the gravitational lens :
 
 To put it more simply, since light is attracted by the black hole at forces that can exceed its speed, the more the passage of the latter is aborted by the black hole, the more the trajectory will be impacted, this can cause the image to be distorted, distorted or even duplicated. Particularly thanks to this, and this is what makes them difficult to spot in space, we can see what is happening behind the black hole. We call it the gravitational lens but it works like the Doppler effect, you know this distortion of the sound depending on whether it is more or less close to you.
@@ -106,7 +106,7 @@ And in particular the light bends so much that it would be possible to see you e
 https://github.com/user-attachments/assets/ee4c4032-3e4c-40ad-bf8b-8001e6f2ec7e
 
 
-### 3. Lunch in black hole
+### <ins>3. Lunch in black hole</ins>
 
 Okay, but so what happens if someone is sent into the black hole? What do we see? Well, as said previously, the light is absorbed by the black hole which will have two major effects:
 - The person will appear to be slowing down as they accelerate in their fall, this is because the light takes longer to reach our eyes.
@@ -124,7 +124,7 @@ And for the sake of our experience we will greatly speed up the process and use 
 
 https://github.com/user-attachments/assets/a07a15b6-7990-4106-9aef-21336b12b25e
 
-### 4. Enter in black hole
+### <ins>4. Enter in black hole</ins>
 
 So for this part we will have to start from several principles if we want to see something: firstly our character must have eyes capable of seeing beyond the speed of light, otherwise he will not even see himself once in the black hole, we will call them Quantum eyes;
 then it is important that our character is invincible to resist the force that he will experience once the event horizon passes but especially the heat emitted at the level of the acretion disk.
@@ -150,7 +150,7 @@ However, these Tidal forces correspond to 1/M² (the mass of the black hole) whi
 
 https://github.com/user-attachments/assets/3d0ff8a2-f34c-4b20-90db-bb2470ed094d
 
-### 5. Create small galaxy
+### <ins>5. Create small galaxy</ins>
 
 For the sake of simplify mathematical and optimization limitations, I limited myself to spawning 2000 stars around the black hole using the Newtonian mechanics (developed by Isaac Newton) rather than general relativity (developed by Albert Einstein).
 
