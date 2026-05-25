@@ -38,7 +38,7 @@ This network became the Event Horizon Telescope, whose objective is to produce a
 
 It took almost perfect weather conditions for nearly four days in order to capture the image. The data was then analyzed by three different laboratories, all of which reached the same result, revealing in 2019 the first-ever photograph of a black hole, followed by a clearer version in 2022.
 
-<img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/13ac6b1d-eaf2-4c94-a10d-96c2d7f453be" /> <img width="480" height="480" alt="image" src="https://github.com/user-attachments/assets/dde538c9-14f8-4358-a6a3-f9a4f97eff14" />
+<img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/13ac6b1d-eaf2-4c94-a10d-96c2d7f453be" /> <img width="960" height="960" alt="image" src="https://github.com/user-attachments/assets/dde538c9-14f8-4358-a6a3-f9a4f97eff14" />
 
 
 ### Midpoint :
