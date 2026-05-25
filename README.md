@@ -137,13 +137,17 @@ Such as :
 - `R` = The Schwarzschild radius
 - `G` = Gravitational constant (which for simplification of calculation will in our case be = 1)
 - `M` = Mass of balck hole
-- `c²` = The light speed
+- `c` = The light speed
 <img width="1024" height="720" alt="image" src="https://github.com/user-attachments/assets/64c8763d-9e17-4e52-9c6a-5e8a82679758" />
 
 The problem then arises that the force applied to our feet will be extremely different from that applied to our head. This is what we call the Tidal forces, and when we are subjected to them our body would find itself stretching into a sort of gigantic spaghetti which gave it its name spaghettification.
 However, these Tidal forces correspond to 1/M² (the mass of the black hole) which means that the more massive the black hole, the more spaghetification will occur later in the fall.
 
-[Admition de l'utilisation de Quantique eyes + explication du rayon de Schwarzschild et Spaguetification]
+<img width="1859" height="691" alt="image" src="https://github.com/user-attachments/assets/858cba38-b97c-4b9f-80fa-9857f9769e30" />
+
+**Result :**
+
+https://github.com/user-attachments/assets/3d0ff8a2-f34c-4b20-90db-bb2470ed094d
 
 ### 5. Create small galaxy
 
