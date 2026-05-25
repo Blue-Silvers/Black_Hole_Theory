@@ -138,6 +138,7 @@ Such as :
 - `G` = Gravitational constant (which for simplification of calculation will in our case be = 1)
 - `M` = Mass of balck hole
 - `c` = The light speed
+
 <img width="1024" height="720" alt="image" src="https://github.com/user-attachments/assets/64c8763d-9e17-4e52-9c6a-5e8a82679758" />
 
 The problem then arises that the force applied to our feet will be extremely different from that applied to our head. This is what we call the Tidal forces, and when we are subjected to them our body would find itself stretching into a sort of gigantic spaghetti which gave it its name spaghettification.
@@ -164,6 +165,7 @@ Such as :
 - `G` = Gravitational constant (which for simplification of calculation will in our case be = 1)
 - `M1` and `M2` = Mass of the landing and attracted object
 - `d²` = The distance between the two objects squared
+
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/3b272fc0-d179-4766-bf15-7805dac7b4e4" />
 
 If we whill use general relativity by Einstein we need to use this calculation :
@@ -174,7 +176,7 @@ And I optain this result...
 
 https://github.com/user-attachments/assets/337ba106-1e19-4522-9b2d-4fe95399a4c3
 
-I kept turning the question over and over in my head and I didn't understand why it would eject my stars like that. So I dove back into my research and then I found it. I had missed a basic principle: the way in which we are today able to detect the presence of black holes.
+I kept turning the question over and over in my head and I didn't understand why it would eject my stars like that. So I dove back into my research and then I found it. I had missed a basic principle: the way in which we are today able to detect the presence of black holes, observing the movement of stars.
 
 https://github.com/user-attachments/assets/a17ce4c5-580d-4bb9-9103-f4461e1622dd
 
@@ -191,7 +193,7 @@ https://www.youtube.com/watch?v=G9KqYVS3OBk _(What happens if you fall into a bl
 
 https://youtu.be/bP1yjgqMA7U?si=Do_4ewcoaM689ygf _(Destroy black hole)_
 
-### Serious video :
+### Serious video : 🇫🇷 
 https://vm.tiktok.com/ZNRggG5nC/ _(Schwarzschild radius)_
 
 https://youtu.be/IAtObnbdLoY?si=UU9zEzTFT1jXCqgA _(What happens if you fall into a black hole)_
