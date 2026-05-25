@@ -106,7 +106,7 @@ And in particular the light bends so much that it would be possible to see you e
 https://github.com/user-attachments/assets/ee4c4032-3e4c-40ad-bf8b-8001e6f2ec7e
 
 
-### <ins>3. Lunch in black hole</ins>
+### <ins>3. Launch in black hole</ins>
 
 Okay, but so what happens if someone is sent into the black hole? What do we see? Well, as said previously, the light is absorbed by the black hole which will have two major effects:
 - The person will appear to be slowing down as they accelerate in their fall, this is because the light takes longer to reach our eyes.
