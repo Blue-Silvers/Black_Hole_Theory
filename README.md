@@ -112,7 +112,7 @@ Okay, but so what happens if someone is sent into the black hole? What do we see
 - The person will appear to be slowing down as they accelerate in their fall, this is because the light takes longer to reach our eyes.
 - The light it emits will shift more and more towards the red before completely disappearing.
 
-To apply this affezct I nee to modifie a little bit th master material of character :
+To apply this effect I need to modifie a little bit the master material of character :
 
 <img width="1071" height="761" alt="image" src="https://github.com/user-attachments/assets/1524b9b0-8f12-4300-a7df-5a1b94d5b2bf" />
 
@@ -152,7 +152,7 @@ https://github.com/user-attachments/assets/3d0ff8a2-f34c-4b20-90db-bb2470ed094d
 
 ### <ins>5. Create small galaxy</ins>
 
-For the sake of simplify mathematical and optimization limitations, I limited myself to spawning 2000 stars around the black hole using the Newtonian mechanics (developed by Isaac Newton) rather than general relativity (developed by Albert Einstein).
+For the sake of simplify mathematical and optimization limitations, I limited myself to spawning 2000 stars around the black hole using law of universal gravitation (developed by Isaac Newton) rather than general relativity (developed by Albert Einstein).
 
 <img width="1592" height="393" alt="image" src="https://github.com/user-attachments/assets/9f8fac69-c84f-43c7-ae69-5be8ddee9ead" />
 
