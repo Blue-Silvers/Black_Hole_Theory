@@ -72,14 +72,14 @@ The first step was obviously to create the visual of the black hole around which
 
 **Result :**
 
-<img width="1152" height="648" alt="download (3)" src="https://github.com/user-attachments/assets/bdd514a6-32cf-444f-81d6-d3285b459ab7" />
+<img width="921" height="518" alt="download (3)" src="https://github.com/user-attachments/assets/bdd514a6-32cf-444f-81d6-d3285b459ab7" />
 
 ### <ins>2. Doppler effect</ins>
 At the beginning I was really afraid of this part, it seemed complex to me to modify in order to localize the transmission of light in a convincing way on Unreal engine, but for that I have to explain to you how the Doppler effect works or rather the gravitational lens :
 
 To put it more simply, since light is attracted by the black hole at forces that can exceed its speed, the more the passage of the latter is aborted by the black hole, the more the trajectory will be impacted, this can cause the image to be distorted, distorted or even duplicated. Particularly thanks to this, and this is what makes them difficult to spot in space, we can see what is happening behind the black hole. We call it the gravitational lens but it works like the Doppler effect, you know this distortion of the sound depending on whether it is more or less close to you.
 
-<img width="1152" height="648" alt="download (4)" src="https://github.com/user-attachments/assets/4c8c8998-bdf7-41cb-ae57-684e2ebba0e4" />
+<img width="921" height="518" alt="download (4)" src="https://github.com/user-attachments/assets/4c8c8998-bdf7-41cb-ae57-684e2ebba0e4" />
 
 In reality, I'm just taking the problem the other way around, given that in Unreal Engine materials we can influence refraction and thus recreate a similar effect of distortion of the image that the light sends back to us.
 In order to achieve a convincing gravitational lens effect I went through two different materials using refraction.
