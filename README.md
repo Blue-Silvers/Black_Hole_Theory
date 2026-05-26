@@ -42,10 +42,10 @@ It took almost perfect weather conditions for nearly four days in order to captu
 
 
 ### <ins>Midpoint :</ins>
-It is important to note, even today, many mysteries still around black holes, since they are located at distances that are currently unreachable. In addition, no material could withstand the extreme conditions required to build a machine can being sent inside a black hole to study it more deeply, not to mention the enormous amount of power that would be needed to transmit a signal back. However, it is still possible to study black holes by observing the different celestial core and phenomena that around them.
+It is important to note, even today, many mysteries are still around black holes, since they are located at distances that are currently unreachable. In addition, no material could withstand the extreme conditions required to build a machine that can be sent inside a black hole to study it more deeply, not to mention the enormous amount of power that would be needed to transmit a signal back. However, it is still possible to study black holes by observing the different celestial cores and phenomena that are around them.
 
 ## Approach
-Originally, I was supposed to have help from my father, who has a doctora in quantum mechanics, to better understand the different advanced mathematic. Unfortunately, that was not possible due to various health complications.
+Originally, I was supposed to have help from my father, who has a doctorate in quantum mechanics, to better understand the different advanced mathematics. Unfortunately, that was not possible due to various health complications.
 
 I therefore had to rely on more accessible versions of these calculations, such as Newtonian mechanics (developed by Isaac Newton) rather than general relativity (developed by Albert Einstein).
 
@@ -112,7 +112,7 @@ Okay, but so what happens if someone is sent into the black hole? What do we see
 - The person will appear to be slowing down as they accelerate in their fall, this is because the light takes longer to reach our eyes.
 - The light it emits will shift more and more towards the red before completely disappearing.
 
-To apply this effect I need to modifie a little bit the master material of character :
+To apply this effect I need to modify a little bit the master material of character :
 
 <img width="1071" height="761" alt="image" src="https://github.com/user-attachments/assets/1524b9b0-8f12-4300-a7df-5a1b94d5b2bf" />
 
@@ -127,7 +127,7 @@ https://github.com/user-attachments/assets/a07a15b6-7990-4106-9aef-21336b12b25e
 ### <ins>4. Enter in black hole</ins>
 
 So for this part we will have to start from several principles if we want to see something: firstly our character must have eyes capable of seeing beyond the speed of light, otherwise he will not even see himself once in the black hole, we will call them Quantum eyes;
-then it is important that our character is invincible to resist the force that he will experience once the event horizon passes but especially the heat emitted at the level of the acretion disk.
+then it is important that our character is invincible to resist the force that he will experience once the event horizon passes but especially the heat emitted at the level of the accretion disk.
 
 After which I must tell you about another of my discoveries: the Schwarzschild radius.
 
@@ -136,13 +136,13 @@ The Schwarzschild radius is more precisely the distance where the world light ra
 Such as :
 - `R` = The Schwarzschild radius
 - `G` = Gravitational constant (which for simplification of calculation will in our case be = 1)
-- `M` = Mass of balck hole
+- `M` = Mass of black hole
 - `c` = The light speed
 
 <img width="1024" height="720" alt="image" src="https://github.com/user-attachments/assets/64c8763d-9e17-4e52-9c6a-5e8a82679758" />
 
 The problem then arises that the force applied to our feet will be extremely different from that applied to our head. This is what we call the Tidal forces, and when we are subjected to them our body would find itself stretching into a sort of gigantic spaghetti which gave it its name spaghettification.
-However, these Tidal forces correspond to 1/M² (the mass of the black hole) which means that the more massive the black hole, the more spaghetification will occur later in the fall.
+However, these Tidal forces correspond to 1/M² (the mass of the black hole) which means that the more massive the black hole, the more spaghettification will occur later in the fall.
 
 <img width="1859" height="691" alt="image" src="https://github.com/user-attachments/assets/858cba38-b97c-4b9f-80fa-9857f9769e30" />
 
@@ -152,7 +152,7 @@ https://github.com/user-attachments/assets/3d0ff8a2-f34c-4b20-90db-bb2470ed094d
 
 ### <ins>5. Create small galaxy</ins>
 
-For the sake of simplify mathematical and optimization limitations, I limited myself to spawning 2000 stars around the black hole using law of universal gravitation (developed by Isaac Newton) rather than general relativity (developed by Albert Einstein).
+For the sake of simplifying mathematical and optimization limitations, I limited myself to spawning 2000 stars around the black hole using the law of universal gravitation (developed by Isaac Newton) rather than general relativity (developed by Albert Einstein).
 
 <img width="1592" height="393" alt="image" src="https://github.com/user-attachments/assets/9f8fac69-c84f-43c7-ae69-5be8ddee9ead" />
 
@@ -168,7 +168,7 @@ Such as :
 
 <img width="640" height="480" alt="image" src="https://github.com/user-attachments/assets/3b272fc0-d179-4766-bf15-7805dac7b4e4" />
 
-If we whill use general relativity by Einstein we need to use this calculation :
+If we will use general relativity by Einstein we need to use this calculation :
 
 <img width="450" height="112" alt="image" src="https://github.com/user-attachments/assets/9d666a76-d893-4674-bf41-7374db8d8ba9" />
 
